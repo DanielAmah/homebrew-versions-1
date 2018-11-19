@@ -75,7 +75,6 @@ class Qt55 < Formula
   depends_on :macos => :mountain_lion
 
   depends_on "d-bus" => :optional
-  depends_on :mysql => :optional
   depends_on :xcode => :build
 
   depends_on OracleHomeVarRequirement if build.with? "oci"
